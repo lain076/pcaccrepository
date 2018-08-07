@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Zozor - Carnet de voyage</title>
+  </head>
+
+  <body>
+
+    <div id="bloc_page">
+      <header>
+
+	<div id="main_title">
+	  <div id="logo">
+	    <img src="pics/zozor_logo.png" alt="logo zozor" />
+	    <h1>Zozor</h1>
+	  </div>
+	  <h2>Carnet de voyage</h2>
+        </div>
+
+	<nav>
+	  <ul>
+	    <li><a href="">Accueil</a></li>
+	    <li><a href="">Blog</a></li>
+	    <li><a href="">CV</a></li>
+    	    <li><a href="">Contact</a></li>
+	  </ul>
+	</nav>
+      </header>
+
+
+      <div id="banniere_image">
+	<div id="banniere_description">
+	  Retour sur mes vacances au Japon ...<a href="#" class="bouton_rouge">Voir l'article
+	    <img src="pics/flecheblanchedroite.png" alt="navigation_arrow" />
+	  </a>
+	  </div>
+	</div>
+      
+
+      <section>
+	<article>
+	  <h1><img src="pics/ico_epingle.png" alt="journey_categori" class="ico_categorie" />Je suis un grand voyageur</h1>
+
+	  <p>blablablafrom japan blablablafrom japanblablablafrom japanblablablafrom japanblablablafrom japanblablablafrom japan
+	    blablablafrom japanblablablafrom japanblablablafrom japanblablablafrom japanblablablafrom japanblablablafrom japanblablablafrom japan
+	    blablablafrom japanblablablafrom japanblablablafrom japanblablablafrom japanblablablafrom japanblablablafrom japanblablablafrom japan
+	    blablablafrom japanblablablafrom japanblablablafrom japanblablablafrom japanblablablafrom japanblablablafrom japanblablablafrom japan
+	  </p>
+
+	  <p>blablablafrom japan blablablafrom japanblablablafrom japanblablablafrom japanblablablafrom japanblablablafrom japan
+	    blablablafrom japanblablablafrom japanblablablafrom japanblablablafrom japanblablablafrom japanblablablafrom japanblablablafrom japan
+	    blablablafrom japanblablablafrom japanblablablafrom japanblablablafrom japanblablablafrom japanblablablafrom japanblablablafrom japan
+	    blablablafrom japanblablablafrom japanblablablafrom japanblablablafrom japanblablablafrom japanblablablafrom japanblablablafrom japan
+	  </p>
+
+	  	  <p>blablablafrom japan blablablafrom japanblablablafrom japanblablablafrom japanblablablafrom japanblablablafrom japan
+	    blablablafrom japanblablablafrom japanblablablafrom japanblablablafrom japanblablablafrom japanblablablafrom japanblablablafrom japan
+	    blablablafrom japanblablablafrom japanblablablafrom japanblablablafrom japanblablablafrom japanblablablafrom japanblablablafrom japan
+	    blablablafrom japanblablablafrom japanblablablafrom japanblablablafrom japanblablablafrom japanblablablafrom japanblablablafrom japan
+	  </p>
+	</article>
+
+	<aside>
+	  <h1>A propos de l'auteur</h1>
+	  <img src="pics/bulle.png" alt="" id="fleche_bulle" />
+	  <p id="photo_zozor"><img src="pics/zozor_classe.png" alt="photo_zozor" /></p>
+	  <p>Laisser moi me présenter je m'appelle zozor et je suis né le 23 novembre 2005.</p>
+	  <p>Bienmaigre n'est-ce pas c'est pourquoi j'ai décidé d'écrire ma biographie </p>
+	  <p>
+	    <img src="pics/facebook.png" alt="facebook">
+	    <img src="pics/twitter.png" alt="twitter">
+	    <img src="pics/vimeo.png" alt="vimeo">
+	    <img src="pics/flickr.png" alt="flickr">
+	    <img src="pics/rss.png" alt="rss_stream">
+	    </p>
+	  </aside>
+	</section>
+
+      <footer>
+	<div id="tweet">
+	  <p>hello world </p>
+	  <p>le 12 mai à 13h00</p>
+	  </div>
+
+
+      <div id="mes_photos">
+	<p>
+	  <img src="pics/photo1.jpg" alt="Photographie">
+	  <img src="pics/photo2.jpg" alt="Photographie">
+	  <img src="pics/photo3.jpg" alt="Photographie">
+	  <img src="pics/photo4.jpg" alt="Photographie">
+	</p>
+      </div>
+
+      <div id="mes_amis">
+	<h1>Mes amis</h1>
+	<div id="listes_ami">
+	  <ul>
+	    <li><a href="#">Kawaii</a></li>
+	    <li><a href="#">Ryu</a></li>
+	    <li><a href="#">Ken</a></li>
+	    <li><a href="#">Tracer</a></li>
+          </ul>
+
+	  <ul>
+	    <li><a href="#">Shunli</a></li>
+	    <li><a href="#">Mrfan</a></li>
+	    <li><a href="#">Goku</a></li>
+	    <li><a href="#">Vegeta</a></li>
+          </ul>
+
+	  
+	</div>
+      </div>
+      </footer>
+      </div>
+    </body>
+  
+</html>
+  
+
+
+
+
+
+
+
+
+
+

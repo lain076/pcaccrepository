@@ -1,0 +1,24 @@
+p
+{
+        color: black;
+}
+
+h1
+{
+        color: blue;
+}
+    
+em
+{
+        color: green;
+}    
+
+.greybloc
+{
+        color: green;
+}
+
+#mycolor
+{
+        color: red;
+}

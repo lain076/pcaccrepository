@@ -1,0 +1,12 @@
+﻿var para = ﻿document.createElement('p');
+var paraText = document.createTextNode('Language basé sur ECMAScript');
+
+para.appendChild(paraText);
+
+
+var myDiv = ﻿document.createElement('div');
+myDiv.id = 'divTP2';
+
+myDiv.appendChild(para);
+
+document.body.appendChild(newDiv);

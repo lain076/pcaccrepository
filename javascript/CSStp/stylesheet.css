@@ -1,0 +1,29 @@
+#parent,
+#child {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+
+#parent {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+#child {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+
+.draggableBox{
+    position: absolute;
+    width: 80px; height: 60px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 40px;
+    background-color: #222;
+    color: #CCC;
+    cursor: move;
+}

@@ -1,0 +1,3 @@
+console.log("script start");
+
+console.log("exit 0");

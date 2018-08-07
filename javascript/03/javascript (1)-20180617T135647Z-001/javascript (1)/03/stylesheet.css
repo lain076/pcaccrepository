@@ -1,0 +1,34 @@
+
+p
+{
+    color: black;
+
+}
+
+h1
+{
+        color: blue;
+}
+    
+em
+{
+        color: green;
+}    
+
+.greybloc
+{
+    color: green;
+    font-size: 0.8em;
+}
+
+.redbloc
+{
+    color: red;
+    font-weight: bold;
+}
+
+#mycolor
+{
+    color: red;
+    text-decoration: underline;
+}

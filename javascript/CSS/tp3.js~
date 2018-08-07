@@ -1,0 +1,12 @@
+console.log("script start");
+
+function testH()
+{
+    return("hello world");
+}
+
+var acc = testH();
+
+console.log("fct " + acc);
+
+console.log("return 0");

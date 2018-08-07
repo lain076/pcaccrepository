@@ -1,0 +1,27 @@
+
+function num2Letter(number)
+{
+    if(isNaN(number) || number < 0 || 999 < number)
+    {
+	return('Please enter a NUMBER between 0 and 999');
+    }
+
+    var units2Letters= ['','un','deux','trois','quatre','cinq','six','sept','huit','neuf','dix','onze','douze','treize','quatorze','quinze','seize','dix-sept','dix-huit','dix-neuf'];
+
+
+    var tens2Letter= ['','dix','vingt','trente','quarante','cinquante','soixante','septente','quatre-vingt','nonante'];
+
+    var units = number % 10;
+    var tens = (number % 100 - units) / 10;
+    var hundreds = (number % 1000 - number % 100) / 100;
+
+    
+}
+
+
+var userEntry;
+
+while(userEntry = prompt('Enter a number to write in letter between 0 and 999 : '))
+      {
+	  alert('Dans boucle');
+      }

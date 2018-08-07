@@ -1,0 +1,10 @@
+﻿console.log('start execution js5');
+
+var mainDiv = document.createElement('div');
+mainDiv.id = 'divTP4';
+
+var form = document.createElement('form');
+var fieldSet = document.createElement('fieldset');
+var legend = document.createElement('legend');
+
+console.log('return(0)');

@@ -1,0 +1,22 @@
+<html>
+
+  <!--exercice de la page 190 sur les css -->
+    <head>
+        <meta charset="utf8" />
+        <link rel="stylesheet" href="stylesheet.css " />
+        <title>ma pagehtml</title>
+    </head>
+    
+    <body>
+
+      <div id="parent">
+      <div id="child"></div>
+	</div>
+      
+
+	<!--doit se trouver a la fin de la page pour que le code se charge en dernier et n interfere pas avec le chargement
+	    des elements de la page -->
+	<script src="tp2.js"></script>
+	
+    </body>
+</html>

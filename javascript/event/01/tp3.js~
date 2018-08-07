@@ -1,0 +1,5 @@
+var child1= document.getElementById('parent1');
+var child1= document.getElementById('parent2');
+var result= document.getElementById('result');
+
+

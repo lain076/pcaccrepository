@@ -1,0 +1,7 @@
+//var div = document.getElementById('myDiv');
+//alert(div);
+
+
+var query = document.querySelector('#menu .item span'),queryAll = document.querySelectorAll('#menu .item span');
+alert(query.innerHTML);
+

@@ -1,0 +1,8 @@
+#!/bin/bash
+
+
+
+while [ -z $reponse ] || [ $reponse |= 'oui' ]
+do
+    read -p 'Donner moi une réponse : ' reponse
+done

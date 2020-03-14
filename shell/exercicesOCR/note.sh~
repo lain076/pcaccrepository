@@ -1,0 +1,14 @@
+#!/bin/bash
+
+
+echo "hello"
+
+read -p 'Entrer une note : ' note
+
+if[ note -ge 16 ]
+then
+
+fi
+
+
+echo $note

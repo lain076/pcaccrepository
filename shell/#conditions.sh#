@@ -1,0 +1,22 @@
+#!/bin/bash
+
+
+nom00="Bruno"
+nom01="Asuka"
+nom02="Rei"
+
+if [ $1 = $nom00 ]
+then
+   echo "bonjour $nom00"
+
+elif [ $1 = $nom01 ]
+then
+    echo "bonjour $nom01"
+    
+elif [ $1 = $nom02 ]
+then
+   echo "bonjour $nom02"     
+    
+else
+    echo "différent"
+    fi

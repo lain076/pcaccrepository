@@ -1,0 +1,15 @@
+D:\Udemy\cs\projets_cs\magicNumber\MagicNumber\bin\Debug\net6.0\MagicNumber.exe
+D:\Udemy\cs\projets_cs\magicNumber\MagicNumber\bin\Debug\net6.0\MagicNumber.deps.json
+D:\Udemy\cs\projets_cs\magicNumber\MagicNumber\bin\Debug\net6.0\MagicNumber.runtimeconfig.json
+D:\Udemy\cs\projets_cs\magicNumber\MagicNumber\bin\Debug\net6.0\MagicNumber.dll
+D:\Udemy\cs\projets_cs\magicNumber\MagicNumber\bin\Debug\net6.0\ref\MagicNumber.dll
+D:\Udemy\cs\projets_cs\magicNumber\MagicNumber\bin\Debug\net6.0\MagicNumber.pdb
+D:\Udemy\cs\projets_cs\magicNumber\MagicNumber\obj\Debug\net6.0\MagicNumber.csproj.AssemblyReference.cache
+D:\Udemy\cs\projets_cs\magicNumber\MagicNumber\obj\Debug\net6.0\MagicNumber.GeneratedMSBuildEditorConfig.editorconfig
+D:\Udemy\cs\projets_cs\magicNumber\MagicNumber\obj\Debug\net6.0\MagicNumber.AssemblyInfoInputs.cache
+D:\Udemy\cs\projets_cs\magicNumber\MagicNumber\obj\Debug\net6.0\MagicNumber.AssemblyInfo.cs
+D:\Udemy\cs\projets_cs\magicNumber\MagicNumber\obj\Debug\net6.0\MagicNumber.csproj.CoreCompileInputs.cache
+D:\Udemy\cs\projets_cs\magicNumber\MagicNumber\obj\Debug\net6.0\MagicNumber.dll
+D:\Udemy\cs\projets_cs\magicNumber\MagicNumber\obj\Debug\net6.0\ref\MagicNumber.dll
+D:\Udemy\cs\projets_cs\magicNumber\MagicNumber\obj\Debug\net6.0\MagicNumber.pdb
+D:\Udemy\cs\projets_cs\magicNumber\MagicNumber\obj\Debug\net6.0\MagicNumber.genruntimeconfig.cache

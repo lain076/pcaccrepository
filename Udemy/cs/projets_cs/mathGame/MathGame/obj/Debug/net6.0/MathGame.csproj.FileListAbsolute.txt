@@ -1,0 +1,15 @@
+D:\Udemy\cs\projets_cs\mathGame\MathGame\bin\Debug\net6.0\MathGame.exe
+D:\Udemy\cs\projets_cs\mathGame\MathGame\bin\Debug\net6.0\MathGame.deps.json
+D:\Udemy\cs\projets_cs\mathGame\MathGame\bin\Debug\net6.0\MathGame.runtimeconfig.json
+D:\Udemy\cs\projets_cs\mathGame\MathGame\bin\Debug\net6.0\MathGame.dll
+D:\Udemy\cs\projets_cs\mathGame\MathGame\bin\Debug\net6.0\ref\MathGame.dll
+D:\Udemy\cs\projets_cs\mathGame\MathGame\bin\Debug\net6.0\MathGame.pdb
+D:\Udemy\cs\projets_cs\mathGame\MathGame\obj\Debug\net6.0\MathGame.csproj.AssemblyReference.cache
+D:\Udemy\cs\projets_cs\mathGame\MathGame\obj\Debug\net6.0\MathGame.GeneratedMSBuildEditorConfig.editorconfig
+D:\Udemy\cs\projets_cs\mathGame\MathGame\obj\Debug\net6.0\MathGame.AssemblyInfoInputs.cache
+D:\Udemy\cs\projets_cs\mathGame\MathGame\obj\Debug\net6.0\MathGame.AssemblyInfo.cs
+D:\Udemy\cs\projets_cs\mathGame\MathGame\obj\Debug\net6.0\MathGame.csproj.CoreCompileInputs.cache
+D:\Udemy\cs\projets_cs\mathGame\MathGame\obj\Debug\net6.0\MathGame.dll
+D:\Udemy\cs\projets_cs\mathGame\MathGame\obj\Debug\net6.0\ref\MathGame.dll
+D:\Udemy\cs\projets_cs\mathGame\MathGame\obj\Debug\net6.0\MathGame.pdb
+D:\Udemy\cs\projets_cs\mathGame\MathGame\obj\Debug\net6.0\MathGame.genruntimeconfig.cache

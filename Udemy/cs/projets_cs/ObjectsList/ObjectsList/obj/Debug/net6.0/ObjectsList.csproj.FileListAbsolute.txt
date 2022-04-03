@@ -1,0 +1,15 @@
+D:\Udemy\cs\projets_cs\ObjectsList\ObjectsList\bin\Debug\net6.0\ObjectsList.exe
+D:\Udemy\cs\projets_cs\ObjectsList\ObjectsList\bin\Debug\net6.0\ObjectsList.deps.json
+D:\Udemy\cs\projets_cs\ObjectsList\ObjectsList\bin\Debug\net6.0\ObjectsList.runtimeconfig.json
+D:\Udemy\cs\projets_cs\ObjectsList\ObjectsList\bin\Debug\net6.0\ObjectsList.dll
+D:\Udemy\cs\projets_cs\ObjectsList\ObjectsList\bin\Debug\net6.0\ref\ObjectsList.dll
+D:\Udemy\cs\projets_cs\ObjectsList\ObjectsList\bin\Debug\net6.0\ObjectsList.pdb
+D:\Udemy\cs\projets_cs\ObjectsList\ObjectsList\obj\Debug\net6.0\ObjectsList.csproj.AssemblyReference.cache
+D:\Udemy\cs\projets_cs\ObjectsList\ObjectsList\obj\Debug\net6.0\ObjectsList.GeneratedMSBuildEditorConfig.editorconfig
+D:\Udemy\cs\projets_cs\ObjectsList\ObjectsList\obj\Debug\net6.0\ObjectsList.AssemblyInfoInputs.cache
+D:\Udemy\cs\projets_cs\ObjectsList\ObjectsList\obj\Debug\net6.0\ObjectsList.AssemblyInfo.cs
+D:\Udemy\cs\projets_cs\ObjectsList\ObjectsList\obj\Debug\net6.0\ObjectsList.csproj.CoreCompileInputs.cache
+D:\Udemy\cs\projets_cs\ObjectsList\ObjectsList\obj\Debug\net6.0\ObjectsList.dll
+D:\Udemy\cs\projets_cs\ObjectsList\ObjectsList\obj\Debug\net6.0\ref\ObjectsList.dll
+D:\Udemy\cs\projets_cs\ObjectsList\ObjectsList\obj\Debug\net6.0\ObjectsList.pdb
+D:\Udemy\cs\projets_cs\ObjectsList\ObjectsList\obj\Debug\net6.0\ObjectsList.genruntimeconfig.cache

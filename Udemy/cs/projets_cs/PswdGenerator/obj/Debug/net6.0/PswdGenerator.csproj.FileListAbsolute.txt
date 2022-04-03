@@ -1,0 +1,15 @@
+D:\Udemy\cs\projets_cs\PswdGenerator\bin\Debug\net6.0\PswdGenerator.exe
+D:\Udemy\cs\projets_cs\PswdGenerator\bin\Debug\net6.0\PswdGenerator.deps.json
+D:\Udemy\cs\projets_cs\PswdGenerator\bin\Debug\net6.0\PswdGenerator.runtimeconfig.json
+D:\Udemy\cs\projets_cs\PswdGenerator\bin\Debug\net6.0\PswdGenerator.dll
+D:\Udemy\cs\projets_cs\PswdGenerator\bin\Debug\net6.0\ref\PswdGenerator.dll
+D:\Udemy\cs\projets_cs\PswdGenerator\bin\Debug\net6.0\PswdGenerator.pdb
+D:\Udemy\cs\projets_cs\PswdGenerator\obj\Debug\net6.0\PswdGenerator.csproj.AssemblyReference.cache
+D:\Udemy\cs\projets_cs\PswdGenerator\obj\Debug\net6.0\PswdGenerator.GeneratedMSBuildEditorConfig.editorconfig
+D:\Udemy\cs\projets_cs\PswdGenerator\obj\Debug\net6.0\PswdGenerator.AssemblyInfoInputs.cache
+D:\Udemy\cs\projets_cs\PswdGenerator\obj\Debug\net6.0\PswdGenerator.AssemblyInfo.cs
+D:\Udemy\cs\projets_cs\PswdGenerator\obj\Debug\net6.0\PswdGenerator.csproj.CoreCompileInputs.cache
+D:\Udemy\cs\projets_cs\PswdGenerator\obj\Debug\net6.0\PswdGenerator.dll
+D:\Udemy\cs\projets_cs\PswdGenerator\obj\Debug\net6.0\ref\PswdGenerator.dll
+D:\Udemy\cs\projets_cs\PswdGenerator\obj\Debug\net6.0\PswdGenerator.pdb
+D:\Udemy\cs\projets_cs\PswdGenerator\obj\Debug\net6.0\PswdGenerator.genruntimeconfig.cache

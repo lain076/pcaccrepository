@@ -1,0 +1,15 @@
+D:\Udemy\cs\projets_cs\HangmanGame\HangmanGame\bin\Debug\net6.0\HangmanGame.exe
+D:\Udemy\cs\projets_cs\HangmanGame\HangmanGame\bin\Debug\net6.0\HangmanGame.deps.json
+D:\Udemy\cs\projets_cs\HangmanGame\HangmanGame\bin\Debug\net6.0\HangmanGame.runtimeconfig.json
+D:\Udemy\cs\projets_cs\HangmanGame\HangmanGame\bin\Debug\net6.0\HangmanGame.dll
+D:\Udemy\cs\projets_cs\HangmanGame\HangmanGame\bin\Debug\net6.0\ref\HangmanGame.dll
+D:\Udemy\cs\projets_cs\HangmanGame\HangmanGame\bin\Debug\net6.0\HangmanGame.pdb
+D:\Udemy\cs\projets_cs\HangmanGame\HangmanGame\obj\Debug\net6.0\HangmanGame.csproj.AssemblyReference.cache
+D:\Udemy\cs\projets_cs\HangmanGame\HangmanGame\obj\Debug\net6.0\HangmanGame.GeneratedMSBuildEditorConfig.editorconfig
+D:\Udemy\cs\projets_cs\HangmanGame\HangmanGame\obj\Debug\net6.0\HangmanGame.AssemblyInfoInputs.cache
+D:\Udemy\cs\projets_cs\HangmanGame\HangmanGame\obj\Debug\net6.0\HangmanGame.AssemblyInfo.cs
+D:\Udemy\cs\projets_cs\HangmanGame\HangmanGame\obj\Debug\net6.0\HangmanGame.csproj.CoreCompileInputs.cache
+D:\Udemy\cs\projets_cs\HangmanGame\HangmanGame\obj\Debug\net6.0\HangmanGame.dll
+D:\Udemy\cs\projets_cs\HangmanGame\HangmanGame\obj\Debug\net6.0\ref\HangmanGame.dll
+D:\Udemy\cs\projets_cs\HangmanGame\HangmanGame\obj\Debug\net6.0\HangmanGame.pdb
+D:\Udemy\cs\projets_cs\HangmanGame\HangmanGame\obj\Debug\net6.0\HangmanGame.genruntimeconfig.cache

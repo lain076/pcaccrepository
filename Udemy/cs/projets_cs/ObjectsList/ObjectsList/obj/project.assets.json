@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Udemy\\cs\\projets_cs\\ObjectsList\\ObjectsList\\ObjectsList.csproj",
+      "projectUniqueName": "D:\\GIT_dev\\pcaccrepository\\Udemy\\cs\\projets_cs\\ObjectsList\\ObjectsList\\ObjectsList.csproj",
       "projectName": "ObjectsList",
-      "projectPath": "D:\\Udemy\\cs\\projets_cs\\ObjectsList\\ObjectsList\\ObjectsList.csproj",
+      "projectPath": "D:\\GIT_dev\\pcaccrepository\\Udemy\\cs\\projets_cs\\ObjectsList\\ObjectsList\\ObjectsList.csproj",
       "packagesPath": "C:\\Users\\djpca\\.nuget\\packages\\",
-      "outputPath": "D:\\Udemy\\cs\\projets_cs\\ObjectsList\\ObjectsList\\obj\\",
+      "outputPath": "D:\\GIT_dev\\pcaccrepository\\Udemy\\cs\\projets_cs\\ObjectsList\\ObjectsList\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\djpca\\AppData\\Roaming\\NuGet\\NuGet.Config",

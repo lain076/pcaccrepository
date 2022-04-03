@@ -4,8 +4,11 @@ namespace ObjectsList
 {
     internal class Program
     {
-
-        class Person
+        class Etudiant : Person
+        {
+            
+        }
+class Person
         {
             private static int totalPeoples = 0;
             public int Number { get; init; }

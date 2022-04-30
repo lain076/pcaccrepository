@@ -1,0 +1,15 @@
+D:\GIT_dev\pcaccrepository\Udemy\cs\projets_cs\POO00\programme_poo\programme_poo\bin\Debug\net6.0\programme_poo.exe
+D:\GIT_dev\pcaccrepository\Udemy\cs\projets_cs\POO00\programme_poo\programme_poo\bin\Debug\net6.0\programme_poo.deps.json
+D:\GIT_dev\pcaccrepository\Udemy\cs\projets_cs\POO00\programme_poo\programme_poo\bin\Debug\net6.0\programme_poo.runtimeconfig.json
+D:\GIT_dev\pcaccrepository\Udemy\cs\projets_cs\POO00\programme_poo\programme_poo\bin\Debug\net6.0\programme_poo.dll
+D:\GIT_dev\pcaccrepository\Udemy\cs\projets_cs\POO00\programme_poo\programme_poo\bin\Debug\net6.0\ref\programme_poo.dll
+D:\GIT_dev\pcaccrepository\Udemy\cs\projets_cs\POO00\programme_poo\programme_poo\bin\Debug\net6.0\programme_poo.pdb
+D:\GIT_dev\pcaccrepository\Udemy\cs\projets_cs\POO00\programme_poo\programme_poo\obj\Debug\net6.0\programme_poo.csproj.AssemblyReference.cache
+D:\GIT_dev\pcaccrepository\Udemy\cs\projets_cs\POO00\programme_poo\programme_poo\obj\Debug\net6.0\programme_poo.GeneratedMSBuildEditorConfig.editorconfig
+D:\GIT_dev\pcaccrepository\Udemy\cs\projets_cs\POO00\programme_poo\programme_poo\obj\Debug\net6.0\programme_poo.AssemblyInfoInputs.cache
+D:\GIT_dev\pcaccrepository\Udemy\cs\projets_cs\POO00\programme_poo\programme_poo\obj\Debug\net6.0\programme_poo.AssemblyInfo.cs
+D:\GIT_dev\pcaccrepository\Udemy\cs\projets_cs\POO00\programme_poo\programme_poo\obj\Debug\net6.0\programme_poo.csproj.CoreCompileInputs.cache
+D:\GIT_dev\pcaccrepository\Udemy\cs\projets_cs\POO00\programme_poo\programme_poo\obj\Debug\net6.0\programme_poo.dll
+D:\GIT_dev\pcaccrepository\Udemy\cs\projets_cs\POO00\programme_poo\programme_poo\obj\Debug\net6.0\ref\programme_poo.dll
+D:\GIT_dev\pcaccrepository\Udemy\cs\projets_cs\POO00\programme_poo\programme_poo\obj\Debug\net6.0\programme_poo.pdb
+D:\GIT_dev\pcaccrepository\Udemy\cs\projets_cs\POO00\programme_poo\programme_poo\obj\Debug\net6.0\programme_poo.genruntimeconfig.cache

@@ -1,11 +1,11 @@
-﻿using System;
+﻿using System.Collections;
 
 namespace programme_poo 
 {
     class person
     {
 
-        private string name;
+        public string name;
         private int age;
         private string job;        
         
@@ -29,10 +29,17 @@ namespace programme_poo
     {
         static void Main(string[] args)
         {
-            person david = new person("David", 46, "coder");
-            david.DisplayInfo();
-            person grathy = new person("Grathy", 42, "cooker");
-            grathy.DisplayInfo();
+            var people = new List<person>();
+
+            people.Add(new person("David", 46, "coder"));
+            people.Add(new person("Grathy", 42, "cooker"));
+
+            people = people.OrderBy(p =>p.name).ToList();
+            
+            foreach (person person in people)
+            {
+                person.DisplayInfo();
+            }
             
         }
     }

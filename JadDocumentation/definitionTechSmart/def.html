@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../style.css" />
+    <title>Définitions et mécaniques Smart</title>
+	
+	<style>
+        code {
+            background-color: #f4f4f4;
+            color: #333;
+            padding: 10px;
+            border-radius: 5px;
+            display: block;
+            font-family: Consolas, "Courier New", monospace;
+        }
+    </style>
+	
+</head>
+<body>
+
+<h1>Définition et mécaniques des éléments Smart</h1>
+
+
+
+<div class="defTitleContainer">Factures :</div>
+<div class="defTextContainer">
+    <p class="defContent">
+        Les factures sont stockées dans la table : <b>[SMart].[dbo].[tblFactures]</b> les références ont créées quand on enregistre le contrat accepté. ( dbWrite_ValidatedContract dans contract.vb).<br/>
+		Il existe une colonne dans <b>[SMart].[dbo].[tblPrestations]</b> qui porte le nom de refFAC et qui contient la référence de la facture.<br/><br/>
+		<b>NB : Quand on modifie un contrat déjà validé si les données de facturation ont été modifiées une nouvelle facture sera générée. Si ce n’est pas le cas alors on a la possibilité d’accepter la validation sans régénérer une facture.</b><br/>
+		<b>NB : Les prestations en activité ne possède pas de refFAC ce sont des devis transformé en factures dans une autre table.</b>
+    </p>
+</div>
+
+<div class="defTitleContainer">Les rôles dans UNITY :</div>
+
+
+
+<div class="defTextContainer">
+    <p class="defContent">
+  
+  Exemple d'ajout de rôle deans UNITY.<br/>
+  <a href='https://github.com/smartcoop/smart-back-end/pull/6099/files' target='blank'>https://github.com/smartcoop/smart-back-end/pull/6099/files</a><br/>
+  <br/>
+  
+<pre><code>
+  SELECT top(20) *  FROM [SMart].[AspNetIdentity].[AspNetUsers] WHERE Id='bb617df2-e0fb-4696-a808-2a98be7faa92'
+
+  SELECT TOP (20) [UserId],[RoleId] FROM [SMart].[AspNetIdentity].[AspNetUserRoles] WHERE RoleId='ec242523-5192-4d23-9916-0053674f8f05'
+
+  SELECT TOP (20) [Id],[Name],[NormalizedName],[ConcurrencyStamp]  FROM [SMart].[AspNetIdentity].[AspNetRoles]
+
+  SELECT roles.NormalizedName
+	FROM [SMart].[AspNetIdentity].[AspNetUsers] users
+		INNER JOIN [SMart].[AspNetIdentity].[AspNetUserRoles] usersRoles
+		   ON users.Id = usersRoles.UserId
+		INNER JOIN [SMart].[AspNetIdentity].[AspNetRoles] roles
+		   ON roles.Id = usersRoles.RoleId
+  WHERE users.ReferenceUserId = '455337282'
+</code></pre>
+
+  
+    </p>
+	
+	<div class="notaBene"><b>NB:</b> tous les membres ne sont présent dans la table [SMart].[AspNetIdentity].[AspNetUsers]. Ils sont <b>automatiquement</b> enregistrés dedans quand ils sont redirigés vers UNITY la première fois.
+	</div>
+	
+</div>
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../style.css" />
+    <title>NB Jorge</title>
+</head>
+<body>
+
+<h1>NB jorge</h1>
+
+
+
+<div class="defTitleContainer">DTO :</div>
+<div class="defTextContainer">
+    <p class="defContent">
+        
+Hello, bien que l'architecture actuelle et le workflow dans Unity ont bien été compris et assimilés, j'ai repéré dernièrement quelques petites failles d'architecture qui pourraient parfois rendre difficiles<br /> 
+les développements (et que je suis le premier à avoir laissé passer et valider les PRs en attendant de voir vers où évoluent les choses avant de pouvoir prendre les actions nécessaires).<br />
+<br />
+Je constate qu'il a beaucoup de méthodes du DAL qui retournent des objects DM quand elles devraient juste retourner des DTOs.<br />
+<br />
+Pour rafraichir, le Domain Model est une classe qui représente l'objet business en question qu'on va manipuler dans un use case business, qui a des contraintes business pour sa génération, qui est soumis a des <br />
+validations et puis qui sera sauvé en DB via un repository si toute la chaîne de contrôle réussie.<br />
+En soi, une fois que le Domain Model est créé et répond au besoin business, il reste un peu figé dans le marbre, en attente d'une nouvelle spécification du business pour le changer/augmenter.<br />
+Celui ci ne devrait que contenir des liens vers d'autres éléments business et pas d'infos supplémentaires. C'est à dire, si on prends par exemple le contrat en activité, le DM Contract ne contiendrait pas <br />
+d'objet Activity ou Membre avec un id, une ref, nom, prénom, etc..., sinon juste une refActivity et une refMembre, point barre.<br />
+Il peut être tentant de se dire qu'on ajoute ces infos car on en aura besoin dans une vue et ça nous épargne l'usage d'un autre service pour récupérer ces infos, mais il faut éviter cette pulsion.<br />
+Actuellement c'est possible parce que nos DM sont un peu bê-bêtes et ouverts, mais ceci n'est que "temporaire" (à la Smart quoi :smile:). C'est une anomalie qu'on doit redresser petit à petit.<br />
+<br />
+Tout le reste qui orbite autour, comme des méthodes qui doivent rechercher des infos en DB à la demande pour les vues ou pour les services, et qui peuvent être réutilisés un peu partout pour différents domaines <br />
+parce qu'elles se répétent, n'ont pas besoin de retourner des Domain Model ni de se trouver dans le repository.<br />
+Pour ceci, on peut utiliser des QueryServices qui retournent des DTOs (un peu à l'image de ce qui se faisait dans DeskAPI).<br />
+<br />
+A la base, il est préférable d'utiliser un GetById du repo pour aller récupérer le DM avec les infos qui nous intéressent (si celui ci existe; faut pas l'inventer ni le modifier), mais ceci est à évaluer <br />
+ au cas par cas, et n'est pas une contrainte. Genre, si j'ai besoin d'une certaine info du contrat, je prioriserait d'utiliser le repo et DM car c'est plus safe et source de vérité en termes de reconstitution d'infos.<br />
+Si du coup on a besoin d'injecter plein de repos pour aller chercher des petites infos à gauche à droite, ou des DM qui seraient plus gourmands, alors un QueryService qui répond un DTO adapté et spécifique sera plus <br />
+agréable et performant, mais en contrepartie plus prône à des erreurs si on ne connait pas les DBs ou interpréter correctement les data.<br />
+Je pense donc que certains DM actuels devraient être débroussaillés suivant cette méthodo.<br />
+En plus et à terme, une fois que Unity soit bien en DCA (Domain Centric Architecture), les interfaces des QueryServices, tout comme celles des Repositories, devraient se retrouver dans la couche Application et pas dans <br />
+le DAL comme c'est le cas maintenant. Donc pour l'instant, vous les verraient ensembles ("temporairement" :issou:)<br />
+J'ai fait une PR très très simple pour représenter la solution. Celle-ci retournait uniquement des primitifs et pas d'objets, donc très facile à remplacer, mais je vous viendrait avec des cas plus complexes, <br />
+c'est juste pour que vous captiez l'idée.
+
+https://github.com/smartcoop/smart-back-end/pull/5487
+		
+    </p>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,96 @@
+
+
+
+h1 {
+  color: #32618B;              /* Change la couleur du texte en bleu */
+  font-family: Arial, sans-serif; /* Définit la police */
+  text-align: left;  
+  margin-left: 20px; 
+}
+
+h2 {
+  color: #5F969C;              /* Change la couleur du texte en bleu */
+  font-family: Arial, sans-serif; /* Définit la police */
+  text-align: left;  
+  margin-left: 35px; 
+}
+
+.defTitle
+{
+	font-size: 14em;
+	color: #707E75;
+}
+
+.defContent
+{
+	font-size: 1.2em;
+	color: #707E75;
+}
+
+/*	bordure	*/
+.defTitleContainer
+{
+	border: 2px solid #B0BEC5;
+	padding: 9px;
+	color: #1565C0;
+	font-weight: bold;
+	margin-top: 2px;
+}
+
+
+
+.defTextContainer
+{
+	padding-top: 10px;
+	padding-left: 25px;
+	padding-bottom: 10px;
+}
+
+.notaBene
+{
+	padding-top: 10px;
+	padding-left: 25px;
+	padding-bottom: 10px;
+	border-radius: 10px;
+    display: block;
+	background-color: #ccf2ff;
+	color: #666;
+	font-size: 1.2em;
+}
+
+
+/* liens */
+a{
+	font-size: 0.9em;
+	color: #339966;
+	t-decoration: none;
+	font-weight: bold;
+	padding-left: 10px;
+}
+
+a:hover{
+	font-size: 1.0em;
+	color: #669999;
+	t-decoration: none;
+	font-weight: bold;
+	padding-left: 10px;
+}
+
+
+a:visited{
+	font-size: 0.9em;
+	color: #339966;
+	t-decoration: none;
+	font-weight: bold;
+	padding-left: 10px;
+}
+
+
+
+
+/*A suprimer */
+.defIntroduction
+{
+	color: blue;
+	
+}

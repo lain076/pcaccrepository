@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../style.css" />
+    <title>Définitions</title>
+</head>
+<body>
+
+<h1>Définition technique des éléments</h1>
+
+<p class="defIntroduction">NB: voir P101 et p102</p>
+
+<div class="defTitleContainer">DTO :</div>
+<div class="defTextContainer">
+    <p class="defContent">
+        Un DTO <b>(Data Transfer Object)</b> est un modèle utilisé en développement informatique pour transférer des données entre différentes couches d'une application.<br />
+        Les DTO sont souvent utilisés pour encapsuler les données et les envoyer d'un point à un autre, par exemple entre le client et le serveur, <u>sans inclure de logique métier</u>.<br />
+        <br />
+        Les principaux avantages des DTO sont :<br />
+        <br />
+        <b>Simplicité :</b> Ils contiennent uniquement des attributs et des méthodes d'accès (getters et setters).<br />
+        <b>Sécurité :</b> Ils permettent de contrôler les données exposées et de réduire les risques de fuite d'informations sensibles.<br />
+        <b>Performance :</b> En transférant uniquement les données nécessaires, ils peuvent améliorer les performances de l'application.
+    </p>
+</div>
+
+<div class="defTitleContainer">Logique métier : </div>
+<div class="defTextContainer">
+    <p class="defContent">
+        La logique métier <b>(ou business logic en anglais)</b> représente l'ensemble des règles et des processus qui définissent comment les données sont créées, stockées,<br />
+        et modifiées dans une application. Elle est au cœur du fonctionnement de l'application et détermine comment les différentes opérations sont effectuées pour<br />
+        répondre aux besoins spécifiques de l'entreprise ou du domaine d'activité.<br />
+        <br />
+        Voici quelques exemples de logique métier :<br />
+        <br />
+        <b>Calculs financiers :</b> Par exemple, le calcul des intérêts sur un prêt.<br />
+        <b>Validation des données :</b> Vérifier que les données saisies par l'utilisateur respectent certaines règles (comme un format d'email valide).<br />
+        <b>Gestion des transactions :</b> Assurer que les opérations de base de données sont effectuées de manière cohérente et sécurisée.<br />
+        La logique métier est souvent séparée des autres couches de l'application (comme la couche de présentation ou la couche d'accès aux données) pour faciliter la maintenance et l'évolution du code.
+    </p>
+</div>
+
+<div class="defTitleContainer"> DM : </div>
+<div class="defTextContainer">
+    <p class="defContent">
+        Un domaine model <b>(modèle de domaine)</b> est une représentation abstraite des concepts, des objets et des relations propres à un domaine spécifique de l'application.<br />
+        Il capture les règles et les comportements qui sont pertinents pour le domaine en question. Le modèle de domaine est souvent utilisé pour structurer et organiser<br />
+        les données et la logique métier de manière cohérente et compréhensible.<br />
+        <br />
+        Voici quelques caractéristiques d'un modèle de domaine :<br />
+        <br />
+        <b>Entités :</b> Objets principaux du domaine, souvent avec une identité unique (par exemple, un utilisateur, un produit).<br />
+        <b>Valeur objets :</b> Objets qui ne possèdent pas d'identité propre mais sont définis par leurs attributs (par exemple, une adresse).<br />
+        <b>Agrégats :</b> Groupes d'entités et de valeur objets qui sont traités comme une unité cohérente.<br />
+        <b>Services :</b> Composants qui encapsulent la logique métier et les opérations sur les entités et les agrégats.<br />
+        Le modèle de domaine aide à structurer le code de manière à refléter les concepts et les règles du domaine, facilitant ainsi la compréhension et la maintenance de l'application.
+    </p>
+</div>
+
+<div class="defTitleContainer"> Le DAL : </div>
+<div class="defTextContainer">
+    <p class="defContent">
+        Son rôle principal est de fournir une interface pour effectuer des opérations de lecture, d'écriture, de mise à jour et de suppression des données sans exposer les détails de l'implémentation de la base de données.<br />
+        <br />
+        Les avantages du DAL incluent :<br />
+        <br />
+        <b>Abstraction :</b> Il sépare la logique d'accès aux données de la logique métier, ce qui facilite la maintenance et l'évolution de l'application.<br />
+        <b>Réutilisabilité :</b> Les composants du DAL peuvent être réutilisés dans différentes parties de l'application.<br />
+        <b>Sécurité :</b> Il permet de centraliser les contrôles d'accès et les validations des données.<br />
+        Le DAL peut être implémenté de différentes manières, par exemple en utilisant des ORM (Object-Relational Mappers) comme Entity Framework en .NET<br />
+
+    </p>
+</div>
+
+<div class="defTitleContainer"> QueryService : </div>
+<div class="defTextContainer">
+    <p class="defContent">
+=> RETOURNE UN DTO
+
+        Un QueryService est un composant utilisé en développement informatique pour exécuter des requêtes et récupérer des données.<br />
+        Il est souvent utilisé dans le cadre de l'architecture de microservices ou de l'architecture CQRS (Command Query Responsibility Segregation). Voici quelques points clés :<br />
+        <br />
+        Séparation des responsabilités : Dans l'architecture CQRS, les QueryServices sont responsables de la lecture des données, tandis que les CommandServices gèrent les opérations de modification.<br />
+        Optimisation des performances : Les QueryServices peuvent être optimisés pour des opérations de lecture rapide et efficace, souvent en utilisant des techniques de mise en cache.<br />
+        Simplification du code : En séparant les opérations de lecture et d'écriture, le code devient plus facile à maintenir et à comprendre.<br />
+        Les QueryServices peuvent interagir avec des bases de données, des API externes, ou d'autres sources de données pour fournir les informations nécessaires à l'application.<br />
+    </p>
+</div>
+
+<div class="defTitleContainer"> Repositories : </div>
+<div class="defTextContainer">
+    <p class="defContent">
+        Les repositories <b>(ou dépôts)</b> sont des composants utilisés en développement logiciel pour encapsuler la logique d'accès aux données. Ils fournissent une interface pour interagir avec les sources de données (comme les bases de données) de manière abstraite et cohérente. Voici quelques points clés sur les repositories :<br />
+        <br />
+        Abstraction : Les repositories masquent les détails de l'implémentation de la base de données, permettant aux développeurs de travailler avec des objets de domaine sans se soucier des requêtes SQL ou des détails spécifiques de la base de données.<br />
+        Séparation des préoccupations : En séparant la logique d'accès aux données de la logique métier, les repositories facilitent la maintenance et l'évolution du code.<br />
+        <b>Réutilisabilité :</b> Les méthodes de repository peuvent être réutilisées dans différentes parties de l'application, réduisant ainsi la duplication de code.<br />
+        Un repository typique peut inclure des méthodes pour :<br />
+        <br />
+        <b>Ajouter (Add) :</b> Ajouter un nouvel objet à la base de données.<br />
+        <b>Mettre à jour (Update) :</b> Mettre à jour un objet existant.<br />
+        <b>Supprimer (Delete) :</b> Supprimer un objet de la base de données.<br />
+        <b>Rechercher (Find) :</b> Récupérer des objets en fonction de critères spécifiques.<br />
+        Les repositories sont souvent utilisés en combinaison avec des ORM (Object-Relational Mappers) comme Entity Framework, Hibernate, ou Dapper.
+    </p>
+</div>
+
+<div class="defTitleContainer"> Async : </div>
+<div class="defTextContainer">
+    <p class="defContent">
+        Le mot-clé async dans la méthode OnPostAsync indique que cette méthode est asynchrone. Cela signifie qu'elle peut effectuer des opérations de manière non bloquante, permettant ainsi à d'autres tâches de s'exécuter en parallèle pendant qu'elle attend la fin de certaines opérations.<br />
+        <br />
+        Voici ce que cela implique dans le contexte de OnPostAsync :<br />
+        Appels asynchrones : La méthode utilise await pour appeler des méthodes asynchrones comme _mediator.Send(CreateDataModel()) et CommonFunctions.SetSelectValuesAsync(MemberViewModel). Ces appels sont effectués de manière asynchrone, ce qui permet au thread de continuer à faire d'autres travaux pendant qu'il attend la réponse de ces appels.<br />
+        Amélioration des performances : En rendant la méthode asynchrone, l'application peut gérer plus efficacement les ressources, surtout lors de l'exécution d'opérations d'E/S (comme les appels à une base de données ou à un service web) qui peuvent prendre du temps.<br />
+        Réactivité de l'interface utilisateur : Dans une application web, l'utilisation de méthodes asynchrones peut améliorer la réactivité globale, car le serveur peut traiter d'autres requêtes pendant qu'il attend la fin des opérations asynchrones.<br />
+        <br />
+        En résumé, le mot-clé async permet à la méthode OnPostAsync de gérer les opérations longues de manière plus efficace et non bloquante, améliorant ainsi les performances et la réactivité de l'application.<br />
+    </p>
+</div>
+
+<div class="defTitleContainer"> Mockup : </div>
+<div class="defTextContainer">
+    <p class="defContent">
+       En informatique, un <b>mockup</b> (ou maquette en français) est une représentation visuelle statique d'une interface utilisateur, souvent utilisée dans le cadre de la conception d'applications ou de sites web.
+    </p>
+</div>
+
+
+</body>
+</html>

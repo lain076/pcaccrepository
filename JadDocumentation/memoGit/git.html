@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../style.css" />
+
+    <!-- Inclure le fichier CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/default.min.css">
+    <!-- Inclure le fichier JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+    <title>Définitions et mécaniques Smart</title>
+</head>
+
+
+<body>
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        hljs.highlightAll();
+    });
+</script>
+
+<h1>Mémo GIT</h1>
+
+
+
+<div class="defTitleContainer">Installation :</div>
+<div class="defTextContainer">
+    <p class="defContent">
+        Il faut installer GIT comme décrit dans la procédure d'installation.<br />
+        Pour configurer pour notre repository GITHUB tapez les commandes suivantes :<br /><br />
+    </p>
+</div>
+<div class="defTextContainer">
+    <pre><code>
+        git config --global user.name "lain076"
+        git config --global user.email "djpcacc@gmail.com"
+    </code></pre>
+</div>
+
+<div class="notaBene"><b>NB:</b> Global veut dire que l'email et l'user sont globaux à tous les repos. Il ne doivent pas être redéfinit pour chaque repo.</div>
+<br />
+
+<div class="copilotPrompt"><b>Copilot:</b> Je possède déjà un compte sur GitHub avec trois repositories dessus. Je vais donc le cloner sur ma machine local avec la commande "git clone".
+Est ce que je dois quand même faire le git config après l instalation pour l email et le nom d utimisateur?</div>
+
+<div class="defTextContainer">
+    <pre>
+Oui, vous devez quand même configurer votre nom et votre adresse email avec git config, même si vous avez déjà un compte GitHub et que vous clonez des dépôts existants.
+
+🧾 Pourquoi faire git config après l’installation ?
+Ces informations sont utilisées pour signer vos commits localement.
+
+Elles permettent d’identifier qui a fait quoi dans l’historique du projet.
+
+Même si vous clonez un dépôt existant, dès que vous commencerez à faire des modifications et des commits, Git utilisera ces paramètres.
+
+    </pre>
+</div>
+<br />
+<br />
+<div class="copilotPrompt"><b>Copilot:</b> Est ce que je dois faire un git init dans le répertoire de destination si je clone mon dépôt dedant?</div>
+<div class="defTextContainer">
+    <pre>
+Non, vous n’avez pas besoin de faire git init dans le répertoire de destination si vous utilisez git clone.
+    </pre>
+</div>
+
+<br />
+<br />
+<div class="copilotPrompt"><b>Copilot:</b> j ai trois dépots différents de dois donc les cloner tous les trois dans un répertoire dédié?</div>
+<div class="defTextContainer">
+    <pre>
+Tu n’es pas obligé de créer un répertoire dédié, mais c’est fortement recommandé pour garder ton environnement de travail bien organisé.
+
+🗂️ Option recommandée : un dossier parent pour tous tes dépôts
+Tu peux créer un dossier principal (par exemple MesProjetsGit) et y cloner tes trois dépôts :
+
+bash
+mkdir MesProjetsGit
+cd MesProjetsGit
+
+git clone https://github.com/ton-utilisateur/depot1.git
+git clone https://github.com/ton-utilisateur/depot2.git
+git clone https://github.com/ton-utilisateur/depot3.git
+Cela te donnera :
+
+Code
+MesProjetsGit/
+├── depot1/
+├── depot2/
+└── depot3/
+✅ Avantages :
+Tu gardes tous tes projets GitHub au même endroit.
+
+Tu peux facilement naviguer entre eux.
+
+Tu évites de mélanger des fichiers dans un répertoire non versionné.
+
+    </pre>
+</div>
+
+
+
+<div class="defTitleContainer">Clonage de mes repositories :</div>
+
+
+
+<div class="defTextContainer">
+    <p class="defContent">
+  Commande de clonage.<br/>
+
+<pre><code>
+git clone https://github.com/lain076/pcaccrepository.git GlobaRepository
+git clone https://github.com/lain076/mon_site_web.git GitCoursRepository
+</code></pre>
+</div>
+<br />
+<br />
+
+<div class="defTitleContainer">Commandes génériques :</div>
+<br/>
+
+<pre><code>
+git add nom-du-fichier
+git add .
+
+git commit -m "Message décrivant les modifications"
+
+git push origin master
+
+git log -n 10
+
+git log -n 10 one line
+
+
+</code></pre>
+</div>
+
+<div class="notaBene"><b>NB:</b> une fenêtre apparait faire signer avec navigateur qui doit être connecté sur github.</div>
+
+
+
+</body>
+</html>

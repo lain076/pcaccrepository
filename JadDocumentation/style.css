@@ -48,6 +48,7 @@ h2 {
 
 .notaBene
 {
+    margin-top: 10px;
 	padding-top: 10px;
 	padding-left: 25px;
 	padding-bottom: 10px;
@@ -58,6 +59,19 @@ h2 {
 	font-size: 1.2em;
 }
 
+.copilotPrompt
+{
+    margin-top: 10px;
+	padding-top: 10px;
+	padding-left: 25px;
+	padding-bottom: 10px;
+	border-radius: 10px;
+    display: block;
+	background-color: #00CC99;
+	color: #666;
+	font-size: 1.2em;
+    width: 50%;
+}
 
 /* liens */
 a{

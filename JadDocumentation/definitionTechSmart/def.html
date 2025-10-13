@@ -4,21 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="../style.css" />
+
+    <!-- Inclure le fichier CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/default.min.css">
+    <!-- Inclure le fichier JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+
     <title>Définitions et mécaniques Smart</title>
-	
-	<style>
-        code {
-            background-color: #f4f4f4;
-            color: #333;
-            padding: 10px;
-            border-radius: 5px;
-            display: block;
-            font-family: Consolas, "Courier New", monospace;
-        }
-    </style>
-	
+
 </head>
 <body>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    hljs.highlightAll();
+  });
+</script>
 
 <h1>Définition et mécaniques des éléments Smart</h1>
 
@@ -40,12 +41,12 @@
 
 <div class="defTextContainer">
     <p class="defContent">
-  
+
   Exemple d'ajout de rôle deans UNITY.<br/>
   <a href='https://github.com/smartcoop/smart-back-end/pull/6099/files' target='blank'>https://github.com/smartcoop/smart-back-end/pull/6099/files</a><br/>
   <br/>
-  
-<pre><code>
+
+<pre><code  class="language-sql">
   SELECT top(20) *  FROM [SMart].[AspNetIdentity].[AspNetUsers] WHERE Id='bb617df2-e0fb-4696-a808-2a98be7faa92'
 
   SELECT TOP (20) [UserId],[RoleId] FROM [SMart].[AspNetIdentity].[AspNetUserRoles] WHERE RoleId='ec242523-5192-4d23-9916-0053674f8f05'
@@ -61,12 +62,25 @@
   WHERE users.ReferenceUserId = '455337282'
 </code></pre>
 
-  
+    <pre><code  class="language-python">
+  def fibonacci(n):
+    sequence = [0, 1]
+    while len(sequence) < n:
+        next_value = sequence[-1] + sequence[-2]
+        sequence.append(next_value)
+    return sequence
+
+# Générer les 10 premiers nombres de Fibonacci
+fib = fibonacci(10)
+print("Suite de Fibonacci :")
+print(fib)
+</code></pre>
+
     </p>
-	
+
 	<div class="notaBene"><b>NB:</b> tous les membres ne sont présent dans la table [SMart].[AspNetIdentity].[AspNetUsers]. Ils sont <b>automatiquement</b> enregistrés dedans quand ils sont redirigés vers UNITY la première fois.
 	</div>
-	
+
 </div>
 
 </body>
